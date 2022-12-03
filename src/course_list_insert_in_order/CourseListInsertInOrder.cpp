@@ -20,6 +20,6 @@ void CourseList::insertInOrder(Node* ptrToNode)
     int currentNodesCourseNumber = ptrToNode->getCourse().getCourseNumber();
     while(ptrToNode->getNext()->getCourse().getCourseNumber() > currentNodesCourseNumber)
     {
-        
+        //Continue
     }
 }
